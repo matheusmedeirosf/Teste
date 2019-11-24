@@ -1,0 +1,43 @@
+body{ background-color: MidnightBlue;} 
+p { color: white; } 
+h3{ color: white; }
+
+
+form {
+background-color:MidnightBlue;
+font: 14px arial, sans-serif;
+color: GhostWhite;
+margin-right: 20px;
+
+}
+
+table {
+background-color:SteelBlue;
+font: 14px arial, sans-serif;
+color:GhostWhite;
+margin-right: 20px;
+}
+
+input {
+background-color:GhostWhite;
+font: 14px arial, sans-serif;
+color:SteelBlue;
+border:2px solid #000099;
+}
+
+select {
+background-color:SteelBlue;
+font: 14px arial, sans-serif;
+color:GhostWhite;
+border:2px solid #000099;
+}
+
+.botao {
+background-color: Black;
+font: 14px arial, sans-serif;
+color:GhostWhite;
+margin-right: 20px;
+}
+
+
+
