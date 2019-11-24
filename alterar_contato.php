@@ -50,9 +50,9 @@ $nome1=$_POST['nome'];
 $tel1=$_POST['tel'];
 $email1=$_POST['email'];
 $alterar = mysql_query("UPDATE contato 
-										SET nome = '$nome1', tel = '$tel1', email = '$email1'
-										WHERE codcontato = '$codcontato1' ")
-										or die (mysql_error());
+SET nome = '$nome1', tel = '$tel1', email = '$email1'
+WHERE codcontato = '$codcontato1' ")
+or die (mysql_error());
 mysql_close ($db);
 include "consulta_contato.php";
 ?>
