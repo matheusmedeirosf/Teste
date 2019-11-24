@@ -51,8 +51,8 @@ $tel1=$_POST['tel'];
 $email1=$_POST['email'];
 
 $alterar = mysql_query("DELETE FROM contato 
-					WHERE codcontato='$codcontato1' ") or die (mysql_error());
-					mysql_close ($db);
+WHERE codcontato='$codcontato1' ") or die (mysql_error());
+mysql_close ($db);
 				
 mysql_close ($db);
 include "consulta_contato.php";
